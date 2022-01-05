@@ -14,3 +14,51 @@ a {
 * {
   box-sizing: border-box;
 }
+
+strong {
+  font-weight: 800;
+}
+
+.main-color {
+  color: #8c00ff;
+}
+
+.btn-color {
+  background-color: #8c00ff;
+  color: #fff;
+}
+
+.cta-color {
+  background-color: #8c00ff;
+  color: #fff;
+}
+
+.btn-color:hover {
+  background-color: #ffffff;
+  border: 1px solid #8c00ff;
+  color: #8c00ff;
+}
+
+.progress {
+  height: 5px;
+}
+
+.progress-bar {
+  width: 100%;
+}
+
+.links-tab {
+  font-size: 30px;
+}
+
+.portfolio {
+  margin-top: 100px;
+}
+
+.cta {
+  margin-top: 100px;
+}
+
+.contact {
+  margin-top: 100px;
+}
