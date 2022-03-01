@@ -13,7 +13,7 @@ const Contact = () => {
           <div className='col-md-5'>
             <div className='contact-item d-flex mb-3'>
               <div className='icon fs-4 text-danger'>
-                <i class='bi bi-envelope-check main-color'></i>
+                <i className='bi bi-envelope-check main-color'></i>
               </div>
               <div className='text ms-3'>
                 <h3 className='fs-5'>Email</h3>
@@ -22,7 +22,7 @@ const Contact = () => {
             </div>
             <div className='contact-item d-flex mb-3'>
               <div className='icon fs-4 text-danger'>
-                <i class='bi bi-github main-color'></i>
+                <i className='bi bi-github main-color'></i>
               </div>
               <div className='text ms-3'>
                 <h3 className='fs-5'>Github Username</h3>
@@ -31,7 +31,7 @@ const Contact = () => {
             </div>
             <div className='contact-item d-flex mb-3'>
               <div className='icon fs-4 text-danger'>
-                <i class='bi bi-geo-fill main-color'></i>
+                <i className='bi bi-geo-fill main-color'></i>
               </div>
               <div className='text ms-3'>
                 <h3 className='fs-5'>Location</h3>

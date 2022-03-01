@@ -57,10 +57,10 @@ const About = () => {
                 </a>
                 <div className='social-links'>
                   <a href='#' className='text-dark me-4'>
-                    <i class='bi bi-github'></i>
+                    <i className='bi bi-github'></i>
                   </a>
                   <a href='#' className='text-dark me-4'>
-                    <i class='bi bi-linkedin'></i>
+                    <i className='bi bi-linkedin'></i>
                   </a>
                 </div>
               </div>
