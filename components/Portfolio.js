@@ -13,46 +13,26 @@ const Portfolio = () => {
           <div className='col-md-6 col-lg-4'>
             <div className='portfolio-item'>
               <img
-                src='p1.png'
-                className='w-100 img-thumbnail'
-                alt='portfolio item'
-              />
-              <h3 className='text-capitalize fs-5 my-2'>team section</h3>
-              <p className='mb-4'>
-                <a href='#' className='main-color text-decoration-none'>
-                  Live Demo
-                </a>
-              </p>
-            </div>
-          </div>
-          <div className='col-md-6 col-lg-4'>
-            <div className='portfolio-item'>
-              <img
-                src='img/portfolio/2.jpg'
-                className='w-100 img-thumbnail'
-                alt='portfolio item'
-              />
-              <h3 className='text-capitalize fs-5 my-2'>app landing page</h3>
-              <p className='mb-4'>
-                <a href='#' className='main-color text-decoration-none'>
-                  Live Demo
-                </a>
-              </p>
-            </div>
-          </div>
-          <div className='col-md-6 col-lg-4'>
-            <div className='portfolio-item'>
-              <img
-                src='img/portfolio/3.jpg'
+                src='p1.PNG'
                 className='w-100 img-thumbnail'
                 alt='portfolio item'
               />
               <h3 className='text-capitalize fs-5 my-2'>
-                creative team section
+                Notelly - Simple Note Taking App
               </h3>
+              <p>
+                Note taking application created with nextjs and bootstrap. The
+                website is simple and saves the forms in localstorage.
+              </p>
               <p className='mb-4'>
-                <a href='#' className='main-color text-decoration-none'>
-                  Live Demo
+                <a href='#' className='main-color text-decoration-underline'>
+                  Demo
+                </a>
+                <a
+                  href='#'
+                  className='main-color text-decoration-underline mx-4'
+                >
+                  Code
                 </a>
               </p>
             </div>
@@ -60,16 +40,26 @@ const Portfolio = () => {
           <div className='col-md-6 col-lg-4'>
             <div className='portfolio-item'>
               <img
-                src='img/portfolio/4.jpg'
+                src='p1.PNG'
                 className='w-100 img-thumbnail'
                 alt='portfolio item'
               />
               <h3 className='text-capitalize fs-5 my-2'>
-                toggle pricing table
+                Notelly - Simple Note Taking App
               </h3>
+              <p>
+                Note taking application created with nextjs and bootstrap. The
+                website is simple and saves the forms in localstorage.
+              </p>
               <p className='mb-4'>
-                <a href='#' className='main-color text-decoration-none'>
-                  Live Demo
+                <a href='#' className='main-color text-decoration-underline'>
+                  Demo
+                </a>
+                <a
+                  href='#'
+                  className='main-color text-decoration-underline mx-4'
+                >
+                  Code
                 </a>
               </p>
             </div>
@@ -77,33 +67,29 @@ const Portfolio = () => {
           <div className='col-md-6 col-lg-4'>
             <div className='portfolio-item'>
               <img
-                src='img/portfolio/5.jpg'
+                src='p1.PNG'
                 className='w-100 img-thumbnail'
                 alt='portfolio item'
               />
               <h3 className='text-capitalize fs-5 my-2'>
-                bootstrap 5 image gallery
+                Notelly - Online Note Taking App
               </h3>
-              <p className='mb-4'>
-                <a href='#' className='main-color text-decoration-none'>
-                  Live Demo
-                </a>
+              <p>
+                This note taking application is created with nextjs and
+                bootstrap. Notes gets saved to localstorage by a unique ID and
+                can be modified/deleted.
               </p>
-            </div>
-          </div>
-          <div className='col-md-6 col-lg-4'>
-            <div className='portfolio-item'>
-              <img
-                src='img/portfolio/6.jpg'
-                className='w-100 img-thumbnail'
-                alt='portfolio item'
-              />
-              <h3 className='text-capitalize fs-5 my-2'>
-                filterable image gallery
-              </h3>
               <p className='mb-4'>
-                <a href='#' className='main-color text-decoration-none'>
-                  Live Demo
+                <a href='#' className='main-color text-decoration-underline'>
+                  Demo
+                </a>
+                <a
+                  href='https://github.com/eminshamshoian/notelly'
+                  target='_blank'
+                  className='main-color text-decoration-underline mx-4'
+                  rel='noreferrer'
+                >
+                  Code
                 </a>
               </p>
             </div>
