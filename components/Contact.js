@@ -51,6 +51,7 @@ const Contact = () => {
                 <div className='row'>
                   <div className='col-lg-6 mb-4'>
                     <input
+                      name='name'
                       type='text'
                       placeholder='Your Name'
                       className='
@@ -64,6 +65,7 @@ const Contact = () => {
                   </div>
                   <div className='col-lg-6 mb-4'>
                     <input
+                      name='email'
                       type='text'
                       placeholder='Your Email'
                       className='
@@ -79,6 +81,7 @@ const Contact = () => {
                 <div className='row'>
                   <div className='col-lg-12 mb-4'>
                     <input
+                      name='subject'
                       type='text'
                       placeholder='Subject'
                       className='
@@ -94,6 +97,7 @@ const Contact = () => {
                 <div className='row'>
                   <div className='col-lg-12 mb-4'>
                     <textarea
+                      name='message'
                       rows='5'
                       placeholder='Your Message'
                       className='
