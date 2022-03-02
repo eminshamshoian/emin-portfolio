@@ -59,6 +59,7 @@ const Contact = () => {
                         border-0
                         shadow-sm
                       '
+                      required
                     />
                   </div>
                   <div className='col-lg-6 mb-4'>
@@ -71,6 +72,7 @@ const Contact = () => {
                         border-0
                         shadow-sm
                       '
+                      required
                     />
                   </div>
                 </div>
@@ -85,6 +87,7 @@ const Contact = () => {
                         border-0
                         shadow-sm
                       '
+                      required
                     />
                   </div>
                 </div>
@@ -99,6 +102,7 @@ const Contact = () => {
                         border-0
                         shadow-sm
                       '
+                      required
                     ></textarea>
                   </div>
                 </div>
