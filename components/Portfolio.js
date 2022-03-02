@@ -80,7 +80,12 @@ const Portfolio = () => {
                 can be modified/deleted.
               </p>
               <p className='mb-4'>
-                <a href='#' className='main-color text-decoration-underline'>
+                <a
+                  href='https://elated-shockley-5854ac.netlify.app/'
+                  className='main-color text-decoration-underline'
+                  target='_blank'
+                  rel='noreferrer'
+                >
                   Demo
                 </a>
                 <a
