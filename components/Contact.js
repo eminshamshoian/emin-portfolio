@@ -41,7 +41,13 @@ const Contact = () => {
           </div>
           <div className='col-md-7'>
             <div className='contact-form'>
-              <form name='contact' method='POST' data-netlify='true'>
+              <form
+                name='contact'
+                method='post'
+                data-netlify='true'
+                data-netlify-honeypot='bot-field'
+              >
+                <input type='hidden' name='form-name' value='contact' />
                 <div className='row'>
                   <div className='col-lg-6 mb-4'>
                     <input
