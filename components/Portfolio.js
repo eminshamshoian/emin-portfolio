@@ -99,6 +99,35 @@ const Portfolio = () => {
               </p>
             </div>
           </div>
+          <div className='col-md-6 col-lg-4'>
+            <div className='portfolio-item'>
+              <img
+                src='p4.png'
+                className='w-100 img-thumbnail'
+                alt='portfolio item'
+              />
+              <h3 className='text-capitalize fs-5 my-2'>
+                Magic Square - Java Command Line Application
+              </h3>
+              <p>
+                A magic square is an arrangement like the one below where the
+                vertical, horizontal and diagonl lines of numbers all add up to
+                the same value. This same value is called the sum of the magic
+                square. It is a critical part of this problem that three times
+                the centre square is equal to the sum of the magic square.
+              </p>
+              <p className='mb-4'>
+                <a
+                  href='https://github.com/eminshamshoian/java-magic-square'
+                  target='_blank'
+                  className='main-color text-decoration-underline'
+                  rel='noreferrer'
+                >
+                  Code
+                </a>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
