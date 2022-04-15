@@ -39,7 +39,7 @@ const Portfolio = () => {
                   href='http://161.35.228.239/'
                   className='main-color text-decoration-underline'
                   target='_blank'
-                  rel='noreferrer'
+                  rel='noopener noreferrer'
                 >
                   Demo
                 </a>
@@ -47,6 +47,7 @@ const Portfolio = () => {
                   href='https://github.com/eminshamshoian/shareapremy-client'
                   className='main-color text-decoration-underline mx-4'
                   target='_blank'
+                  rel='noopener noreferrer'
                 >
                   Client Code
                 </a>
@@ -54,7 +55,7 @@ const Portfolio = () => {
                   href='https://github.com/eminshamshoian/shareapremy-server'
                   className='main-color text-decoration-underline'
                   target='_blank'
-                  rel='noreferrer'
+                  rel='noopener noreferrer'
                 >
                   Server Code
                 </a>
@@ -90,6 +91,7 @@ const Portfolio = () => {
                   href='https://elated-shockley-5854ac.netlify.app/'
                   className='main-color text-decoration-underline'
                   target='_blank'
+                  rel='noopener noreferrer'
                 >
                   Demo
                 </a>
@@ -97,6 +99,7 @@ const Portfolio = () => {
                   href='https://github.com/eminshamshoian/notelly'
                   className='main-color text-decoration-underline mx-4'
                   target='_blank'
+                  rel='noopener noreferrer'
                 >
                   Code
                 </a>
