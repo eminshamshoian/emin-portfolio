@@ -13,26 +13,48 @@ const Portfolio = () => {
           <div className='col-md-6 col-lg-4'>
             <div className='portfolio-item'>
               <img
-                src='p1.PNG'
+                src='p2.png'
                 className='w-100 img-thumbnail'
                 alt='portfolio item'
               />
               <h3 className='text-capitalize fs-5 my-2'>
-                Notelly - Simple Note Taking App
+                Shareapremy - Premium Video Sharing
               </h3>
               <p>
-                Note taking application created with nextjs and bootstrap. The
-                website is simple and saves the forms in localstorage.
+                This is a private video sharing application. Collections are
+                accessed through links and can be purchased. The platform keeps
+                a fee while distributing the rest to the creator.
+              </p>
+              <p>
+                <strong>Tech Used:</strong> HTML, CSS, React, Nextjs, Bootstrap,
+                Antd, Nodejs, Mongodb, AWS S3, AWS SES, Stripe, Digital Ocean,
+                NGINX, PM2
+              </p>
+              <p>
+                <strong>Subscriber Login:</strong> <br />
+                <strong>Creator Login:</strong>
               </p>
               <p className='mb-4'>
-                <a href='#' className='main-color text-decoration-underline'>
+                <a
+                  href='http://161.35.228.239/'
+                  className='main-color text-decoration-underline'
+                  target='_blank'
+                >
                   Demo
                 </a>
                 <a
-                  href='#'
+                  href='https://github.com/eminshamshoian/shareapremy-client'
                   className='main-color text-decoration-underline mx-4'
+                  target='_blank'
                 >
-                  Code
+                  Client Code
+                </a>
+                <a
+                  href='https://github.com/eminshamshoian/shareapremy-server'
+                  className='main-color text-decoration-underline'
+                  target='_blank'
+                >
+                  Server Code
                 </a>
               </p>
             </div>
@@ -49,79 +71,30 @@ const Portfolio = () => {
               </h3>
               <p>
                 Note taking application created with nextjs and bootstrap. The
-                website is simple and saves the forms in localstorage.
+                website is simple and saves the forms in localstorage. The
+                interface offers a clean way of storing notes.
               </p>
-              <p className='mb-4'>
-                <a href='#' className='main-color text-decoration-underline'>
-                  Demo
-                </a>
-                <a
-                  href='#'
-                  className='main-color text-decoration-underline mx-4'
-                >
-                  Code
-                </a>
-              </p>
-            </div>
-          </div>
-          <div className='col-md-6 col-lg-4'>
-            <div className='portfolio-item'>
-              <img
-                src='p1.PNG'
-                className='w-100 img-thumbnail'
-                alt='portfolio item'
-              />
-              <h3 className='text-capitalize fs-5 my-2'>
-                Notelly - Online Note Taking App
-              </h3>
               <p>
-                This note taking application is created with nextjs and
-                bootstrap. Notes gets saved to localstorage by a unique ID and
-                can be modified/deleted.
+                <strong>Tech Used:</strong> HTML, CSS, React
               </p>
+              <br />
+              <br />
+              <p>
+                <strong>Authentication Required: </strong> None
+              </p>
+              <br />
               <p className='mb-4'>
                 <a
                   href='https://elated-shockley-5854ac.netlify.app/'
                   className='main-color text-decoration-underline'
                   target='_blank'
-                  rel='noreferrer'
                 >
                   Demo
                 </a>
                 <a
                   href='https://github.com/eminshamshoian/notelly'
-                  target='_blank'
                   className='main-color text-decoration-underline mx-4'
-                  rel='noreferrer'
-                >
-                  Code
-                </a>
-              </p>
-            </div>
-          </div>
-          <div className='col-md-6 col-lg-4'>
-            <div className='portfolio-item'>
-              <img
-                src='p4.png'
-                className='w-100 img-thumbnail'
-                alt='portfolio item'
-              />
-              <h3 className='text-capitalize fs-5 my-2'>
-                Magic Square - Java Command Line Application
-              </h3>
-              <p>
-                A magic square is an arrangement like the one below where the
-                vertical, horizontal and diagonl lines of numbers all add up to
-                the same value. This same value is called the sum of the magic
-                square. It is a critical part of this problem that three times
-                the centre square is equal to the sum of the magic square.
-              </p>
-              <p className='mb-4'>
-                <a
-                  href='https://github.com/eminshamshoian/java-magic-square'
                   target='_blank'
-                  className='main-color text-decoration-underline'
-                  rel='noreferrer'
                 >
                   Code
                 </a>
