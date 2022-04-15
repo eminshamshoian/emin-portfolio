@@ -39,6 +39,7 @@ const Portfolio = () => {
                   href='http://161.35.228.239/'
                   className='main-color text-decoration-underline'
                   target='_blank'
+                  rel='noreferrer'
                 >
                   Demo
                 </a>
@@ -53,6 +54,7 @@ const Portfolio = () => {
                   href='https://github.com/eminshamshoian/shareapremy-server'
                   className='main-color text-decoration-underline'
                   target='_blank'
+                  rel='noreferrer'
                 >
                   Server Code
                 </a>
