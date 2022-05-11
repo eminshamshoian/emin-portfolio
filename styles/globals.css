@@ -22,31 +22,36 @@ strong {
 }
 
 .main-color {
-  color: #8c00ff;
+  color: #000334;
 }
 
 .btn-color {
-  background-color: #8c00ff;
+  background-color: #000334;
   color: #fff;
 }
 
 .cta-color {
-  background-color: #8c00ff;
+  background-color: #000334;
   color: #fff;
 }
 
 .btn-color:hover {
   background-color: #ffffff;
-  border: 1px solid #8c00ff;
-  color: #8c00ff;
+  border: 1px solid #000334;
+  color: #000334;
 }
 
-.progress {
-  height: 5px;
+.skills-box {
+  background-color: #000334;
+  color: rgb(204, 204, 204);
+  padding: 4rem;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
-.progress-bar {
-  width: 100%;
+.skill-icon {
+  color: #10c100 !important;
 }
 
 .links-tab {

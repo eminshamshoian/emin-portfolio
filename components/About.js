@@ -30,26 +30,6 @@ const About = () => {
                 the portfolio section below.
               </p>
             </div>
-            <div className='row text-center text-uppercase my-3'>
-              <div className='col-sm-4'>
-                <div className='fact-item'>
-                  <h4 className='fs-1 fw-bold'>2+</h4>
-                  <p className='text-muted'>Years of Expereince</p>
-                </div>
-              </div>
-              <div className='col-sm-4'>
-                <div className='fact-item'>
-                  <h4 className='fs-1 fw-bold'>12+</h4>
-                  <p className='text-muted'>Technologies</p>
-                </div>
-              </div>
-              <div className='col-sm-4'>
-                <div className='fact-item'>
-                  <h4 className='fs-1 fw-bold'>3+</h4>
-                  <p className='text-muted'>Projects</p>
-                </div>
-              </div>
-            </div>
             <div className='row'>
               <div className='col-lg-12 d-flex align-items-center links-tab'>
                 <a href='#' className='btn px-3 btn-color me-5'>
@@ -66,65 +46,43 @@ const About = () => {
               </div>
             </div>
           </div>
+
           <div className='col-md-6 mt-5 mt-md-0'>
-            <div className='skill-item mb-4'>
-              <h3 className='fs-5'>HTML</h3>
-              <div className='progress'>
-                <div
-                  className='progress-bar cta-color'
-                  role='progressbar'
-                  aria-valuenow='25'
-                  aria-valuemin='0'
-                  aria-valuemax='100'
-                ></div>
+            <div className='skills-box'>
+              <div className='skill-item mb-4'>
+                <h3 className='fs-5'>
+                  <i class='bi bi-terminal pe-3'></i>Tech Stack
+                </h3>
+                <hr />
               </div>
-            </div>
-            <div className='skill-item mb-4'>
-              <h3 className='fs-5'>CSS - Bootstrap - Ant Design</h3>
-              <div className='progress'>
-                <div
-                  className='progress-bar cta-color'
-                  role='progressbar'
-                  aria-valuenow='50'
-                  aria-valuemin='0'
-                  aria-valuemax='100'
-                ></div>
+              <div className='skill-item mb-4'>
+                <h3 className='fs-5'>
+                  <i class='bi bi-arrow-right-short px-3 skill-icon'></i>HTML
+                </h3>
               </div>
-            </div>
-            <div className='skill-item mb-4'>
-              <h3 className='fs-5'>Javascript - Typescript</h3>
-              <div className='progress'>
-                <div
-                  className='progress-bar cta-color'
-                  role='progressbar'
-                  aria-valuenow='75'
-                  aria-valuemin='0'
-                  aria-valuemax='100'
-                ></div>
+              <div className='skill-item mb-4'>
+                <h3 className='fs-5'>
+                  <i class='bi bi-arrow-right-short px-3 skill-icon'></i>CSS -
+                  Bootstrap - Ant Design
+                </h3>
               </div>
-            </div>
-            <div className='skill-item mb-4'>
-              <h3 className='fs-5'>React - NextJS - GatsbyJS</h3>
-              <div className='progress'>
-                <div
-                  className='progress-bar cta-color'
-                  role='progressbar'
-                  aria-valuenow='100'
-                  aria-valuemin='0'
-                  aria-valuemax='100'
-                ></div>
+              <div className='skill-item mb-4'>
+                <h3 className='fs-5'>
+                  <i class='bi bi-arrow-right-short px-3 skill-icon'></i>
+                  Javascript - Typescript
+                </h3>
               </div>
-            </div>
-            <div className='skill-item'>
-              <h3 className='fs-5'>NodeJS - MongoDB - AWS</h3>
-              <div className='progress'>
-                <div
-                  className='progress-bar cta-color'
-                  role='progressbar'
-                  aria-valuenow='100'
-                  aria-valuemin='0'
-                  aria-valuemax='100'
-                ></div>
+              <div className='skill-item mb-4'>
+                <h3 className='fs-5'>
+                  <i class='bi bi-arrow-right-short px-3 skill-icon'></i>React -
+                  NextJS - GatsbyJS
+                </h3>
+              </div>
+              <div className='skill-item'>
+                <h3 className='fs-5'>
+                  <i class='bi bi-arrow-right-short px-3 skill-icon'></i>NodeJS
+                  - MongoDB - AWS
+                </h3>
               </div>
             </div>
           </div>
