@@ -51,37 +51,38 @@ const About = () => {
             <div className='skills-box'>
               <div className='skill-item mb-4'>
                 <h3 className='fs-5'>
-                  <i class='bi bi-terminal pe-3'></i>Tech Stack
+                  <i className='bi bi-terminal pe-3'></i>Tech Stack
                 </h3>
                 <hr />
               </div>
               <div className='skill-item mb-4'>
                 <h3 className='fs-5'>
-                  <i class='bi bi-arrow-right-short px-3 skill-icon'></i>HTML
+                  <i className='bi bi-arrow-right-short px-3 skill-icon'></i>
+                  HTML
                 </h3>
               </div>
               <div className='skill-item mb-4'>
                 <h3 className='fs-5'>
-                  <i class='bi bi-arrow-right-short px-3 skill-icon'></i>CSS -
-                  Bootstrap - Ant Design
+                  <i className='bi bi-arrow-right-short px-3 skill-icon'></i>CSS
+                  - Bootstrap - Ant Design
                 </h3>
               </div>
               <div className='skill-item mb-4'>
                 <h3 className='fs-5'>
-                  <i class='bi bi-arrow-right-short px-3 skill-icon'></i>
+                  <i className='bi bi-arrow-right-short px-3 skill-icon'></i>
                   Javascript - Typescript
                 </h3>
               </div>
               <div className='skill-item mb-4'>
                 <h3 className='fs-5'>
-                  <i class='bi bi-arrow-right-short px-3 skill-icon'></i>React -
-                  NextJS - GatsbyJS
+                  <i className='bi bi-arrow-right-short px-3 skill-icon'></i>
+                  React - NextJS - GatsbyJS
                 </h3>
               </div>
               <div className='skill-item'>
                 <h3 className='fs-5'>
-                  <i class='bi bi-arrow-right-short px-3 skill-icon'></i>NodeJS
-                  - MongoDB - AWS
+                  <i className='bi bi-arrow-right-short px-3 skill-icon'></i>
+                  NodeJS - MongoDB - AWS
                 </h3>
               </div>
             </div>
