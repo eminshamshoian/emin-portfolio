@@ -13,30 +13,29 @@ const Portfolio = () => {
           <div className='col-md-6 col-lg-4'>
             <div className='portfolio-item'>
               <img
-                src='p2.png'
+                src='p5.png'
                 className='w-100 img-thumbnail'
                 alt='portfolio item'
               />
               <h3 className='text-capitalize fs-5 my-2'>
-                Shareapremy - Premium Video Sharing
+                Medium Clone - Blogging Application
               </h3>
               <p>
-                This is a private video sharing application. Collections are
-                accessed through links and can be purchased. The platform keeps
-                a fee while distributing the rest to the creator.
+                This is a clone of the medium.com website with some UI
+                differences. This application is built using nextjs and sanity
+                studio as a backend to serve the articles. The build uses nextjs
+                server side rendering (SSR) as well as incremental static
+                regeneration (ISR) to cache data from sanity studio for fast
+                page loads. The website is designed using tailwindcss. The
+                design is responsive to all screen sizes.
               </p>
               <p>
-                <strong>Tech Used:</strong> HTML, CSS, React, Nextjs, Bootstrap,
-                Antd, Nodejs, Mongodb, AWS S3, AWS SES, Stripe, Digital Ocean,
-                NGINX, PM2
-              </p>
-              <p>
-                <strong>Subscriber Login:</strong> <br />
-                <strong>Creator Login:</strong>
+                <strong>Tech Used:</strong> HTML, CSS, React, Nextjs,
+                Tailwindcss, Sanity Studio, Vercel.
               </p>
               <p className='mb-4'>
                 <a
-                  href='http://161.35.228.239/'
+                  href='https://medium-clone-sanity-beryl.vercel.app/'
                   className='main-color text-decoration-underline'
                   target='_blank'
                   rel='noopener noreferrer'
@@ -44,59 +43,7 @@ const Portfolio = () => {
                   Demo
                 </a>
                 <a
-                  href='https://github.com/eminshamshoian/shareapremy-client'
-                  className='main-color text-decoration-underline mx-4'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  Client Code
-                </a>
-                <a
-                  href='https://github.com/eminshamshoian/shareapremy-server'
-                  className='main-color text-decoration-underline'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  Server Code
-                </a>
-              </p>
-            </div>
-          </div>
-          <div className='col-md-6 col-lg-4'>
-            <div className='portfolio-item'>
-              <img
-                src='p1.PNG'
-                className='w-100 img-thumbnail'
-                alt='portfolio item'
-              />
-              <h3 className='text-capitalize fs-5 my-2'>
-                Notelly - Simple Note Taking App
-              </h3>
-              <p>
-                Note taking application created with nextjs and bootstrap. The
-                website is simple and saves the forms in localstorage. The
-                interface offers a clean way of storing notes.
-              </p>
-              <p>
-                <strong>Tech Used:</strong> HTML, CSS, React
-              </p>
-              <br />
-              <br />
-              <p>
-                <strong>Authentication Required: </strong> None
-              </p>
-              <br />
-              <p className='mb-4'>
-                <a
-                  href='https://elated-shockley-5854ac.netlify.app/'
-                  className='main-color text-decoration-underline'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  Demo
-                </a>
-                <a
-                  href='https://github.com/eminshamshoian/notelly'
+                  href='https://github.com/eminshamshoian/medium-clone-sanity'
                   className='main-color text-decoration-underline mx-4'
                   target='_blank'
                   rel='noopener noreferrer'
