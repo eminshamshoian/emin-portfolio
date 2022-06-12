@@ -13,16 +13,15 @@ const Portfolio = () => {
           <div className='col-md-6 col-lg-4'>
             <div className='portfolio-item'>
               <img
-                src='p5.png'
+                src='p6.png'
                 className='w-100 img-thumbnail'
                 alt='portfolio item'
               />
               <h3 className='text-capitalize fs-5 my-2'>
-                Medium Clone - Blogging Application
+                Global Chronicles - Blogging Application
               </h3>
               <p>
-                This is a clone of the medium.com website with some UI
-                differences. This application is built using nextjs and sanity
+                This blogging application is built using nextjs and sanity
                 studio as a backend to serve the articles. The build uses nextjs
                 server side rendering (SSR) as well as incremental static
                 regeneration (ISR) to cache data from sanity studio for fast
