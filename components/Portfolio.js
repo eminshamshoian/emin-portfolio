@@ -30,8 +30,8 @@ const Portfolio = () => {
                 design is responsive to all screen sizes.
               </p>
               <p>
-                <strong>Tech Used:</strong> HTML, CSS, React, Nextjs,
-                Tailwindcss, Sanity Studio, Vercel.
+                <strong>Tech Used:</strong> HTML, CSS, JavaScript, Typescript,
+                React, Nextjs, Tailwindcss, Sanity Studio, Vercel.
               </p>
               <p className='mb-4'>
                 <a
