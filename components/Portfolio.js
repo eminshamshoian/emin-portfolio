@@ -34,7 +34,7 @@ const Portfolio = () => {
               </p>
               <p className='mb-4'>
                 <a
-                  href='https://medium-clone-sanity-beryl.vercel.app/'
+                  href='https://global-chronicles.vercel.app/'
                   className='main-color text-decoration-underline'
                   target='_blank'
                   rel='noopener noreferrer'
@@ -42,7 +42,7 @@ const Portfolio = () => {
                   Demo
                 </a>
                 <a
-                  href='https://github.com/eminshamshoian/medium-clone-sanity'
+                  href='https://github.com/eminshamshoian/global-chronicles'
                   className='main-color text-decoration-underline mx-4'
                   target='_blank'
                   rel='noopener noreferrer'
