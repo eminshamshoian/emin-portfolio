@@ -10,15 +10,15 @@ const Hero = () => {
           </div>
           <div className='col-md-6 mt-5 mt-md-0 order-md-first'>
             <div className='home-text'>
-              <h2 className='fs-4'>Name is Emin S.</h2>
+              <h2 className='fs-4'>Name is Emin</h2>
               <h1 className='main-color text-uppercase fs-1 fw-bold'>
-                Full Stack Developer
+                Software Engineer
               </h1>
 
               <p className='mt-4 text-muted'>
                 I am a full stack developer specialized in the MERN stack.
-                Expertise are wide ranged, most skilled in Reach, Nextjs and
-                Nodejs.
+                Expertise are wide ranged, most skilled in React, Nextjs, Nodejs
+                and Tailwindcss.
               </p>
               <a href='#portfolio' className='btn btn-color px-3 mt-3'>
                 Check Out My Portfolio

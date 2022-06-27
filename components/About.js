@@ -19,7 +19,7 @@ const About = () => {
                 I am a developer with skills in both the frontend and the
                 backend. Some of the major tech stack knowledge I have includes
                 HTML, CSS, JS, React, Nextjs, Typescript, Gatsby, Nodejs and
-                Mongodb as well as AWS technologies. I have graduated with a{' '}
+                Mongodb as well as AWS technologies. I have graduated with a{" "}
                 <strong>Bachelor of Computer Science </strong> from California
                 State University, Northridge where I have learned many other
                 computer science skills such as algorithms, data structures and
@@ -64,25 +64,25 @@ const About = () => {
               <div className='skill-item mb-4'>
                 <h3 className='fs-5'>
                   <i className='bi bi-arrow-right-short px-3 skill-icon'></i>CSS
-                  - Bootstrap - Ant Design
+                  - Bootstrap - Tailwindcss
                 </h3>
               </div>
               <div className='skill-item mb-4'>
                 <h3 className='fs-5'>
                   <i className='bi bi-arrow-right-short px-3 skill-icon'></i>
-                  Javascript - Typescript
+                  Javascript - Typescript - Java - C/C++
                 </h3>
               </div>
               <div className='skill-item mb-4'>
                 <h3 className='fs-5'>
                   <i className='bi bi-arrow-right-short px-3 skill-icon'></i>
-                  React - NextJS - GatsbyJS
+                  React - NextJS - Sanity Studio
                 </h3>
               </div>
               <div className='skill-item'>
                 <h3 className='fs-5'>
                   <i className='bi bi-arrow-right-short px-3 skill-icon'></i>
-                  NodeJS - MongoDB - AWS
+                  NodeJS - MongoDB - AWS - Digital Ocean
                 </h3>
               </div>
             </div>

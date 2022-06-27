@@ -9,24 +9,23 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div className='row'>
+        <div className='row port-card'>
           <div className='col-md-6 col-lg-4'>
             <div className='portfolio-item'>
               <img
                 src='p6.png'
-                className='w-100 img-thumbnail'
+                className='img-thumbnail'
                 alt='portfolio item'
               />
               <h3 className='text-capitalize fs-5 my-2'>
-                Global Chronicles - Blogging Application
+                Global Chronicles - Frontend Blog
               </h3>
               <p>
-                This blogging application is built using nextjs and sanity
-                studio as a backend to serve the articles. The build uses nextjs
-                server side rendering (SSR) as well as incremental static
-                regeneration (ISR) to cache data from sanity studio for fast
-                page loads. The website is designed using tailwindcss. The
-                design is responsive to all screen sizes.
+                Built using nextjs and sanity studio as a backend to serve the
+                articles. The build uses nextjs server side rendering (SSR) as
+                well as incremental static regeneration (ISR) to cache data from
+                sanity studio for fast page loads. The website is designed using
+                tailwindcss. The design is responsive to all screen sizes.
               </p>
               <p>
                 <strong>Development Role</strong>: Built Entire Application
@@ -63,14 +62,15 @@ const Portfolio = () => {
                 alt='portfolio item'
               />
               <h3 className='text-capitalize fs-5 my-2'>
-                SwiftifyTicketing - Classroom Ticketing
+                SwiftifyTicketing - Full Stack Ticketing
               </h3>
               <p>
-                Built for senior capstone project at CSUN university, this
-                applicaiton is designed to track classroom issues and provide a
-                central ticketing dashboard for users. The application is made
-                for professors to report issues found in class and repair
-                faculty to track and fix them while keeping progress.
+                Built for <strong>senior capstone</strong> project at CSUN
+                university, this applicaiton is designed to track classroom
+                issues and provide a central ticketing dashboard for users. The
+                application is made for professors to report issues found in
+                class and repair faculty to track and fix them while keeping
+                progress.
               </p>
               <p>
                 <strong>Development Role</strong>: Full Stack | Built Entire
