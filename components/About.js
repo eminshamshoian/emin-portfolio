@@ -32,14 +32,29 @@ const About = () => {
             </div>
             <div className='row'>
               <div className='col-lg-12 d-flex align-items-center links-tab'>
-                <a href='#' className='btn px-3 btn-color me-5'>
+                <a
+                  href='https://drive.google.com/file/d/1Yj_v5f_ICfq2m2kwKFKLRAtJJtRE1w9c/view?usp=sharing'
+                  className='btn px-3 btn-color me-5'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   Download Resume
                 </a>
                 <div className='social-links'>
-                  <a href='#' className='text-dark me-4'>
+                  <a
+                    href='https://github.com/eminshamshoian'
+                    className='text-dark me-4'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
                     <i className='bi bi-github'></i>
                   </a>
-                  <a href='#' className='text-dark me-4'>
+                  <a
+                    href='https://www.linkedin.com/in/emin-shamshoian-29075b146/'
+                    className='text-dark me-4'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
                     <i className='bi bi-linkedin'></i>
                   </a>
                 </div>
